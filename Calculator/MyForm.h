@@ -132,7 +132,7 @@ namespace Calculator {
 			this->btnSeven->Name = L"btnSeven";
 			this->btnSeven->Size = System::Drawing::Size(89, 73);
 			this->btnSeven->TabIndex = 0;
-			this->btnSeven->Text = L"7";
+			this->btnSeven->Text = L"S";
 			this->btnSeven->UseVisualStyleBackColor = true;
 			this->btnSeven->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -144,7 +144,7 @@ namespace Calculator {
 			this->btnEigth->Name = L"btnEigth";
 			this->btnEigth->Size = System::Drawing::Size(89, 73);
 			this->btnEigth->TabIndex = 0;
-			this->btnEigth->Text = L"8";
+			this->btnEigth->Text = L"H";
 			this->btnEigth->UseVisualStyleBackColor = true;
 			this->btnEigth->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -157,7 +157,7 @@ namespace Calculator {
 			this->btnNine->Name = L"btnNine";
 			this->btnNine->Size = System::Drawing::Size(89, 73);
 			this->btnNine->TabIndex = 0;
-			this->btnNine->Text = L"9";
+			this->btnNine->Text = L"U";
 			this->btnNine->UseVisualStyleBackColor = true;
 			this->btnNine->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -169,7 +169,7 @@ namespace Calculator {
 			this->btnAdd->Name = L"btnAdd";
 			this->btnAdd->Size = System::Drawing::Size(89, 73);
 			this->btnAdd->TabIndex = 0;
-			this->btnAdd->Text = L"+";
+			this->btnAdd->Text = L" ";
 			this->btnAdd->UseVisualStyleBackColor = true;
 			this->btnAdd->Click += gcnew System::EventHandler(this, &MyForm::EnterOperator);
 			// 
@@ -181,7 +181,7 @@ namespace Calculator {
 			this->btnFour->Name = L"btnFour";
 			this->btnFour->Size = System::Drawing::Size(89, 73);
 			this->btnFour->TabIndex = 0;
-			this->btnFour->Text = L"4";
+			this->btnFour->Text = L"M";
 			this->btnFour->UseVisualStyleBackColor = true;
 			this->btnFour->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -193,7 +193,7 @@ namespace Calculator {
 			this->btnFive->Name = L"btnFive";
 			this->btnFive->Size = System::Drawing::Size(89, 73);
 			this->btnFive->TabIndex = 0;
-			this->btnFive->Text = L"5";
+			this->btnFive->Text = L"I";
 			this->btnFive->UseVisualStyleBackColor = true;
 			this->btnFive->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -205,7 +205,7 @@ namespace Calculator {
 			this->btnSix->Name = L"btnSix";
 			this->btnSix->Size = System::Drawing::Size(89, 73);
 			this->btnSix->TabIndex = 0;
-			this->btnSix->Text = L"6";
+			this->btnSix->Text = L"K";
 			this->btnSix->UseVisualStyleBackColor = true;
 			this->btnSix->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -217,7 +217,7 @@ namespace Calculator {
 			this->btnSub->Name = L"btnSub";
 			this->btnSub->Size = System::Drawing::Size(89, 73);
 			this->btnSub->TabIndex = 0;
-			this->btnSub->Text = L"-";
+			this->btnSub->Text = L"A";
 			this->btnSub->UseVisualStyleBackColor = true;
 			this->btnSub->Click += gcnew System::EventHandler(this, &MyForm::EnterOperator);
 			// 
@@ -229,7 +229,7 @@ namespace Calculator {
 			this->btnOne->Name = L"btnOne";
 			this->btnOne->Size = System::Drawing::Size(89, 73);
 			this->btnOne->TabIndex = 0;
-			this->btnOne->Text = L"1";
+			this->btnOne->Text = L"<";
 			this->btnOne->UseVisualStyleBackColor = true;
 			this->btnOne->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -241,7 +241,7 @@ namespace Calculator {
 			this->btnTwo->Name = L"btnTwo";
 			this->btnTwo->Size = System::Drawing::Size(89, 73);
 			this->btnTwo->TabIndex = 0;
-			this->btnTwo->Text = L"2";
+			this->btnTwo->Text = L"3";
 			this->btnTwo->UseVisualStyleBackColor = true;
 			this->btnTwo->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -253,7 +253,7 @@ namespace Calculator {
 			this->btnThree->Name = L"btnThree";
 			this->btnThree->Size = System::Drawing::Size(89, 73);
 			this->btnThree->TabIndex = 0;
-			this->btnThree->Text = L"3";
+			this->btnThree->Text = L" ";
 			this->btnThree->UseVisualStyleBackColor = true;
 			this->btnThree->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -265,7 +265,7 @@ namespace Calculator {
 			this->btnMul->Name = L"btnMul";
 			this->btnMul->Size = System::Drawing::Size(89, 73);
 			this->btnMul->TabIndex = 0;
-			this->btnMul->Text = L"*";
+			this->btnMul->Text = L" ";
 			this->btnMul->UseVisualStyleBackColor = true;
 			this->btnMul->Click += gcnew System::EventHandler(this, &MyForm::EnterOperator);
 			// 
@@ -277,7 +277,7 @@ namespace Calculator {
 			this->btnDot->Name = L"btnDot";
 			this->btnDot->Size = System::Drawing::Size(89, 73);
 			this->btnDot->TabIndex = 0;
-			this->btnDot->Text = L"<<";
+			this->btnDot->Text = L" ";
 			this->btnDot->UseVisualStyleBackColor = true;
 			this->btnDot->Click += gcnew System::EventHandler(this, &MyForm::backspace);
 			// 
@@ -289,7 +289,7 @@ namespace Calculator {
 			this->btnZero->Name = L"btnZero";
 			this->btnZero->Size = System::Drawing::Size(89, 73);
 			this->btnZero->TabIndex = 0;
-			this->btnZero->Text = L"0";
+			this->btnZero->Text = L" ";
 			this->btnZero->UseVisualStyleBackColor = true;
 			this->btnZero->Click += gcnew System::EventHandler(this, &MyForm::EnterNumber);
 			// 
@@ -301,7 +301,7 @@ namespace Calculator {
 			this->btnTotal->Name = L"btnTotal";
 			this->btnTotal->Size = System::Drawing::Size(89, 73);
 			this->btnTotal->TabIndex = 0;
-			this->btnTotal->Text = L"=";
+			this->btnTotal->Text = L" ";
 			this->btnTotal->UseVisualStyleBackColor = true;
 			this->btnTotal->Click += gcnew System::EventHandler(this, &MyForm::totalResult);
 			// 
@@ -313,7 +313,7 @@ namespace Calculator {
 			this->btnDiv->Name = L"btnDiv";
 			this->btnDiv->Size = System::Drawing::Size(89, 73);
 			this->btnDiv->TabIndex = 0;
-			this->btnDiv->Text = L"/";
+			this->btnDiv->Text = L" ";
 			this->btnDiv->UseVisualStyleBackColor = true;
 			this->btnDiv->Click += gcnew System::EventHandler(this, &MyForm::EnterOperator);
 			// 
