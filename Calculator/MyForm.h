@@ -126,7 +126,7 @@ namespace Calculator {
 			// 
 			// btnSeven
 			// 
-			this->btnSeven->Font = (gcnew System::Drawing::Font(L"Impact", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnSeven->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnSeven->Location = System::Drawing::Point(15, 87);
 			this->btnSeven->Name = L"btnSeven";
@@ -138,7 +138,7 @@ namespace Calculator {
 			// 
 			// btnEigth
 			// 
-			this->btnEigth->Font = (gcnew System::Drawing::Font(L"Courier New", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnEigth->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnEigth->Location = System::Drawing::Point(110, 87);
 			this->btnEigth->Name = L"btnEigth";
@@ -151,7 +151,7 @@ namespace Calculator {
 			// btnNine
 			// 
 			this->btnNine->AllowDrop = true;
-			this->btnNine->Font = (gcnew System::Drawing::Font(L"Times New Roman", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnNine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnNine->Location = System::Drawing::Point(205, 87);
 			this->btnNine->Name = L"btnNine";
@@ -163,7 +163,7 @@ namespace Calculator {
 			// 
 			// btnAdd
 			// 
-			this->btnAdd->Font = (gcnew System::Drawing::Font(L"Comic Sans", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnAdd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnAdd->Location = System::Drawing::Point(300, 87);
 			this->btnAdd->Name = L"btnAdd";
@@ -175,7 +175,7 @@ namespace Calculator {
 			// 
 			// btnFour
 			// 
-			this->btnFour->Font = (gcnew System::Drawing::Font(L"Colibri", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnFour->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnFour->Location = System::Drawing::Point(15, 166);
 			this->btnFour->Name = L"btnFour";
