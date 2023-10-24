@@ -5,7 +5,9 @@ using namespace System::Windows::Forms;
 
 
 [STAThread]
-CompatibleTextRenderingDefault(false);
+void Main(array<String^>^ args){
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
 	Calculator::MyForm form;
 	Application::Run(% form);
 }
