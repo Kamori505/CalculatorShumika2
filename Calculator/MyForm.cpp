@@ -10,4 +10,5 @@ void Main(array<String^>^ args){
 	Application::SetCompatibleTextRenderingDefault(false);
 	Calculator::MyForm form;
 	Application::Run(% form);
+
 }
